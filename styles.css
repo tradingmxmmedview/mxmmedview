@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+#logo-animation .logo {
+ animation-name:bounce; /* Add animation */
+}
+
+/* Responsive Design */
+@media only screen and (max-width:768px){....}

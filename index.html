@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MXMMEDVIEW</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+  <!-- Logo Animation -->
+  <div id="logo-animation">
+    <h1 class="logo">MV</h1>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#charts">Charts</a></li>
+      <li><a href="#ai-analysis">AI Analysis</a></li>
+      <li><a href="#pinescripts">Pine Scripts</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="login-btn">Login/Signup</button>
+  </nav>
+
+  <!-- Main Section -->
+  <section id="home">
+    <h2>Welcome to MXMMEDVIEW</h2>
+    <p>Your ultimate trading companion with advanced AI-powered tools.</p>
+    <button onclick="scrollToSection('charts')">Explore Charts</button>
+  </section>
+
+  <!-- Charts Section -->
+  <section id="charts">
+    <h2>Interactive Trading Charts</h2>
+    <div id="chart-container"></div>
+  </section>
+
+  <!-- AI Analysis Section -->
+  <section id="ai-analysis">
+    <h2>AI-Powered Analysis</h2>
+    <textarea id="strategy-input" placeholder="Enter your trading strategy..."></textarea>
+    <button onclick="generatePineScript()">Generate Pine Script with AI</button>
+    <div id="ai-output"></div>
+  </section>
+
+  <!-- Pine Scripts Repository -->
+  <section id="pinescripts">
+    <h2>Pine Scripts Repository</h2>
+    <ul id="script-list">
+      <!-- Dynamically populated -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 MXMMEDVIEW | All Rights Reserved
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
